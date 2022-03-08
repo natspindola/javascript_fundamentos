@@ -1,11 +1,6 @@
 console.log("Hello Word!");
 console.log(123);
 
-var nome = "Guilherme";
-var nome2 = "Joao";
-//var idade = 26;
-//var outravariavel = true;
-var nomeFinal = nome + nome2;
 
 var numl = 10;
 var num2 = 20;
@@ -16,3 +11,18 @@ if (numl < num2) {
 } else {
     console.log("falso");
 }
+
+
+var frutas = ["maça", "pera", "uva"]
+console.log(frutas[2]); //array
+
+
+for(var i = 0; i < 10; i++){
+    console.log(i);
+} //laços de repetição
+
+
+mostrarNome("Guilherme");
+function mostrarNome(nome){
+    console.log(nome);
+} //funçoes
