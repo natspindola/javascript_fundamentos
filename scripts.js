@@ -22,7 +22,7 @@ for(var i = 0; i < 10; i++){
 } //laços de repetição
 
 
-mostrarNome("Guilherme");
+mostrarNome("Natalia");
 function mostrarNome(nome){
     console.log(nome);
 } //funçoes
